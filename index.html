@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive AI Agent Landing Page</title>
+    <meta name="description" content="Live conversational AI video agent landing page powered by D-ID with real-time speech and interactive streaming." />
+    <meta property="og:title" content="Interactive AI Agent Landing Page" />
+    <meta property="og:description" content="Live conversational AI video agent landing page powered by D-ID with real-time speech and interactive streaming." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://agent.d-id.com" />
+    <link rel="preconnect" href="https://api.d-id.com" />
+  </head>
+  <body class="m-0 p-0 w-screen h-screen overflow-hidden bg-black text-white">
+    <div id="agent-container" style="width: 100vw; height: 100vh;"></div>
+    <script type="module"
+      src="https://agent.d-id.com/v2/index.js"
+      data-mode="full"
+      data-client-key="ck_OO4TWPiyzqbHV6mijfzTs"
+      data-agent-id="v2_agt_PIurXsZC"
+      data-name="did-agent"
+      data-monitor="true"
+      data-light-mode="false"
+      data-target-id="agent-container"
+      data-api-url="/api/d-id">
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Interactive AI Agent Landing Page",
+  "description": "Live conversational AI video agent landing page powered by D-ID with real-time speech and interactive streaming.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
